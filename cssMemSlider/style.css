@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.mem-slider {
+  width: 95%;
+  height: 20rem;
+  margin: 0 auto;
+  background-color: #888;
+}
