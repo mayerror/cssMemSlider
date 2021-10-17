@@ -119,3 +119,30 @@
   background: transparent;
   border: 2px solid #fff;
 }
+
+@media (max-width: 700px) {
+  .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    
+  }
+  .mem-slider {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .mem-slider__tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .mem-slider__caption {
+    margin-top: 1rem;
+    width: 100%;
+    order: 2;
+  }
+  .mem-slider__controls {
+    order: 1;
+  }
+}

@@ -1,4 +1,5 @@
 console.log("CSS MEM SLIDER");
+console.log("Пожалуйста, после изменения размера слайдера не забудьте обновить страницу нажатием F5!");
 
 const slideWrapper = document.querySelector('.mem-slider__container'),
       slides = document.querySelectorAll('.mem-slider__slide'),
@@ -6,7 +7,7 @@ const slideWrapper = document.querySelector('.mem-slider__container'),
       bullets = document.querySelectorAll('.mem-slider__bullet'),
       captions = document.querySelectorAll('.mem-slider__caption'),
       slideWidth = slides[0].offsetWidth;
-      
+
 let index = 1;
 
 
