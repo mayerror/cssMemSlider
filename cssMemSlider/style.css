@@ -62,11 +62,21 @@
 }
 
 .mem-slider__caption {
+  position: relative;
+  left: 5rem;
   color: #fff;
   display: none;
+  transition: all .6s;
+  opacity: 0;
 }
 
-.mem-slider__caption-active {
+.mem-slider__caption_trans {
+  transition: all .6s;
+  opacity: 1;
+  left: 0;
+}
+
+.mem-slider__caption_active {
   display: block;
 }
 
