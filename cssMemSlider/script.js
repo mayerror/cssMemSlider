@@ -5,15 +5,16 @@ const slideWrapper = document.querySelector('.mem-slider__container'),
       slides = document.querySelectorAll('.mem-slider__slide'),
       bulletsAreas = document.querySelectorAll('.mem-slider__bullet-area'),
       bullets = document.querySelectorAll('.mem-slider__bullet'),
-      captions = document.querySelectorAll('.mem-slider__caption'),
-      slideWidth = slides[0].offsetWidth;
+      captions = document.querySelectorAll('.mem-slider__caption');
 
-let index = 1;
+let index = 1,
+    slideWidth = slides[0].offsetWidth;
 
 
 function init() {
   bulletsAreas.forEach(item => {
     item.addEventListener('click', e => {
+      slideWidth = slides[0].offsetWidth;
       if(+item.dataset.order != index) {
         if (item.dataset.order == "1") {
           slideWrapper.style.left = `0px`;
