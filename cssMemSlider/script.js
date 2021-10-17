@@ -19,7 +19,7 @@ function init() {
           slideWrapper.style.left = `0px`;
           index = 1;
         } else {
-          slideWrapper.style.left = `-${(+item.dataset.order - 1)*slideWidth}px`;
+          slideWrapper.style.left = `-${(+item.dataset.order - 1)*slideWidth + 5*(+item.dataset.order - 1)}px`;
           index = +item.dataset.order;
         }
         bulletsUpdate();
